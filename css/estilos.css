@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: harry;
+  src: url(/asset/typography/HARRYP__.TTF);
+}
+.h1 {
+  color: yellow !important;
+  font-family: harry;
+}
+
+.nav-link {
+  color: yellow !important;
+  font-family: harry;
+}
+
+h2 {
+  color: yellow !important;
+  font-family: harry;
+}
+
+.titulo {
+  color: rgb(255, 17, 0) !important;
+  font-family: harry;
+}
+
+body {
+  background-color: black;
+}
+
+.navbar {
+  background-color: rgba(138, 7, 7, 0.767);
+}
+
+.card-header {
+  background-color: black;
+}
+
+.card-body {
+  background-color: rgb(0, 0, 0);
+}
+
+.card-footer {
+  background-color: black;
+}
+
+footer {
+  background-color: rgba(138, 7, 7, 0.767);
+}
+
+h1 {
+  font-size: 75px;
+}
+
+.nav-link {
+  font-size: 30px;
+}
+
+article {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+.card-header {
+  font-size: 50px;
+}
+
+article {
+  color: rgb(255, 251, 0);
+  text-align: center;
+  padding: 100px;
+  border: 5px solid;
+  margin: 100px;
+}
+
+footer img {
+  width: 70px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+footer audio {
+  width: 250px;
+  height: 20px;
+}
+
+.contenedor-video {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56, 25%;
+  height: 500px;
+}
+
+.contenedor-video iframe {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card-body {
+  height: 400px;
+}
+
+.card p {
+  color: yellow;
+}
+
+#galeria .col-lg-4 {
+  padding: 25px;
+  margin: 0 !important;
+}
+
+#galeria img {
+  width: 100%;
+  height: 250px;
+}
+
+#galeria img:hover {
+  border: 5px solid white;
+}
+
+/*# sourceMappingURL=estilos.css.map */

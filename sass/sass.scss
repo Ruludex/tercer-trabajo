@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: harry;
+    src: url(/asset/typography/HARRYP__.TTF);
+}
+
+$palabras: (
+    ".h1": yellow,
+    ".nav-link": yellow,
+    "h2": yellow,
+    ".titulo": rgb(255, 17, 0),
+);
+
+$palette: (
+    "body": black,
+    ".navbar": rgba(138, 7, 7, 0.767),
+    ".card-header": black,
+    ".card-body": rgb(0, 0, 0),
+    ".card-footer": black,
+    "footer" : rgba(138, 7, 7, 0.767),
+);
+
+$size: (
+    "h1": 75px,
+    ".nav-link": 30px,
+    "article": 25px,
+    "h2": 50px,
+    ".card-header": 50px,
+);
+
+@each $palabras, $colores in $palabras {
+    #{$palabras}{
+        color:$colores !important;
+        font-family : harry;
+    }
+}
+
+@each $palette, $colores in $palette {
+    #{$palette}{
+        background-color: $colores; 
+    }
+}
+
+@each $size, $text in $size {
+    #{$size}{
+        font-size: $text;
+    }
+}
+
+article {
+    color: rgb(255, 251, 0);
+    text-align: center;
+    padding: 100px;
+    border: 5px solid;
+    margin: 100px;
+}
+
+footer img {
+    width: 70px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+footer audio {
+    width: 250px;
+    height: 20px;
+}
+
+.contenedor-video {
+position: relative;
+overflow: hidden;
+padding-top: 56,25%;
+height: 500px;
+}
+
+.contenedor-video iframe {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card-body {
+    height: 400px;
+}
+
+.card p {
+    color: yellow;
+}
+
+#galeria .col-lg-4 {
+    padding: 25px;
+    margin: 0 !important;
+}
+
+#galeria img {
+    width: 100%;
+    height: 250px;
+}
+
+#galeria img:hover {
+    border: 5px solid white;
+}
